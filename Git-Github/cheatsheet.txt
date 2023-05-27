@@ -1,0 +1,18 @@
+Clonar un repositorio existente
+$ git clone https://github.com/Agucar1/Mochila_Hernandez_Agustin
+Crear un repositorio local
+$ git init
+Crear una nueva rama
+$ git branch *Nombre_rama*
+Pocisionarte a una rama especifica
+$ git checkout *Nombre_rama*
+Subir archivos a la rama
+$ git push origin 
+Bajar archivos de la rama
+$ git pull origin
+Ver estado de los archivos
+$ git status
+Agregar los cambios de los archivos
+$ git add . 
+Guardar cambios con un mensaje descriptivo
+$ git commit -m "mensaje"
