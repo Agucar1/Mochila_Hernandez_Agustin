@@ -1,0 +1,24 @@
+
+1 -¿Por qué un lenguaje de programación sólo puede utilizarse en algunos
+sistemas operativos y en otros no?.
+
+Existen varios factores que pueden influir en la compatibilidad de un lenguaje de programación con diferentes sistemas operativos. Algunas de las razones son las siguientes:
+
+Diferencias en el entorno de ejecución: Cada sistema operativo tiene su propio conjunto de bibliotecas, herramientas y entornos de ejecución. Un lenguaje de programación puede depender de ciertas características o funcionalidades específicas de un sistema operativo en particular, lo que puede limitar su compatibilidad con otros sistemas.
+
+Arquitectura del procesador: Algunos lenguajes de programación están optimizados para funcionar en procesadores específicos. Por ejemplo, el lenguaje Assembly está estrechamente relacionado con la arquitectura de un procesador en particular y puede no ser compatible con otras arquitecturas.
+
+Implementaciones y compiladores: Los diferentes sistemas operativos pueden tener implementaciones y compiladores diferentes para un mismo lenguaje de programación. Estas implementaciones pueden variar en características, rendimiento y compatibilidad con otras plataformas.
+
+Interfaces y API del sistema operativo: Los lenguajes de programación interactúan con el sistema operativo a través de interfaces y API (Application Programming Interfaces). Estas interfaces pueden ser específicas de un sistema operativo y no estar disponibles en otros, lo que limita la portabilidad del lenguaje.
+
+Políticas y preferencias de los desarrolladores: Algunos lenguajes de programación pueden haber sido desarrollados inicialmente para un sistema operativo en particular y, a medida que se expanden, los desarrolladores pueden optar por no invertir tiempo y recursos en adaptarlos a otros sistemas operativos.
+
+2- ¿Qué tipo de máquina virtual es virtualBox?.
+
+VirtualBox es una máquina virtual de tipo 2, también conocida como hipervisor de tipo 2. Un hipervisor de tipo 2 se ejecuta como una aplicación en un sistema operativo anfitrión existente y permite la creación y ejecución de múltiples máquinas virtuales dentro del entorno del sistema operativo anfitrión.
+
+3- Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las
+demás? ¿por qué?
+
+Si tienes varias máquinas virtuales instaladas en un hipervisor de tipo 2, como VirtualBox, el hecho de que una máquina virtual se rompa o tenga problemas generalmente no afectará a las demás máquinas virtuales. Cada máquina virtual se ejecuta de forma aislada dentro del hipervisor y tiene su propio entorno virtualizado.
